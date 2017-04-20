@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	background-color: black;
+	color: white;
+
+	header {
+	display: flex;
+    justify-content: space-between;
+
+    	.logo {
+			background: url(images/logo.svg) top left no-repeat;
+			height: 30px;
+			width: 100%;
+		}
+
+	    nav {
+	    	padding: 0;
+			text-decoration: none;
+			list-style: none;
+			display: flex;
+
+			.links {
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				width: 20px;
+				height: 20px;
+
+				.facebook {
+					background-image: url(images/facebook.svg);
+				}
+
+				.vimeo {
+					background-image: url(images/vimeo.svg);
+				}
+
+				.linkedin {
+					background-image: url(images/linkedin.svg);
+				}
+			}
+		}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// background-image: url("../img/newpost-location.svg");
+// 					background-size: cover;
+// 					background-repeat: no-repeat;
+// 					width: 20px;
+// 					height: 20px;
+// 					background-size: contain;
+// 					background-position: center;
+// 					top: auto;
+// 					margin-left: 12px;

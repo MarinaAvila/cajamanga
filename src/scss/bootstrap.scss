@@ -1,0 +1,29 @@
+$breakpoint-desktop: 1000px;
+$breakpoint-ipad: 800px;
+
+$body-padding-mobile: 0 14px;
+$body-padding-desktop: 0 16px;
+
+
+body {
+	margin: 0;
+	padding: $body-padding-mobile;
+	background-color: white;
+	color: white;
+	font-family: LetterGothicStd-Bold;
+    font-weight: bold;
+	font-size: 11px;
+	box-sizeing: border-box; 
+
+	@media (min-width: $breakpoint-desktop) {
+		padding: $body-padding-desktop;
+	}
+}
+
+%button-transparent {
+	border: 0;
+	padding: 0;
+	outline: 0;
+	background: none;
+	-webkit-apperance: none;
+}
