@@ -1,22 +1,20 @@
 $breakpoint-desktop: 1000px;
 $breakpoint-ipad: 800px;
 
-$body-padding-mobile: 0;
-$body-padding-desktop: 0;
 
 
 body {
 	margin: 0;
-	padding: $body-padding-mobile;
+	padding: 0;
 	background-color: white;
-	color: white;
+	color: black;
 	font-family: LetterGothicStd-Bold;
     font-weight: bold;
 	font-size: 11px;
 	box-sizing: border-box; 
 
 	@media (min-width: $breakpoint-desktop) {
-		padding: $body-padding-desktop;
+		padding: 0;
 	}
 }
 
