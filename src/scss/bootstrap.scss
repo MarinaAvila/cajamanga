@@ -1,8 +1,8 @@
 $breakpoint-desktop: 1000px;
 $breakpoint-ipad: 800px;
 
-$body-padding-mobile: 0 14px;
-$body-padding-desktop: 0 16px;
+$body-padding-mobile: 0;
+$body-padding-desktop: 0;
 
 
 body {
@@ -13,7 +13,7 @@ body {
 	font-family: LetterGothicStd-Bold;
     font-weight: bold;
 	font-size: 11px;
-	box-sizeing: border-box; 
+	box-sizing: border-box; 
 
 	@media (min-width: $breakpoint-desktop) {
 		padding: $body-padding-desktop;
