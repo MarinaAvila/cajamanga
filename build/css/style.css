@@ -139,16 +139,17 @@ body {
 
 .card {
   width: 100%; }
-  .card__image-wrapper {
+  .card .image-wrapper {
     position: relative; }
-  .card__image {
+  .card .image {
     width: 100%; }
-  .card__overlay {
+  .card .overlay {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     position: absolute;
+    text-align: center;
     top: 0;
     right: 0;
     bottom: 0;
@@ -157,18 +158,21 @@ body {
     color: white;
     opacity: 0;
     transition: opacity 200ms; }
-    .card:hover .card__overlay {
+    .card .overlay:hover {
       opacity: 1; }
-  .card__title {
+  .card .title {
     color: white;
-    text-transform: uppercase; }
-  .card__text {
-    margin-top: 1px;
-    margin-bottom: 12px; }
+    text-transform: uppercase;
+    width: 80%;
+    margin: auto; }
+  .card .text {
+    margin: 0;
+    /*		margin-top: 1px;
+		margin-bottom: 12px;*/ }
   @media (min-width: 1000px) {
     .card {
       width: 20%; }
-      .card__text {
+      .card .text {
         margin-top: 1px;
         margin-bottom: 20px; } }
 
